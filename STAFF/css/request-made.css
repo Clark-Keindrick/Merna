@@ -1,0 +1,151 @@
+.ribbon {
+    background: #198754;
+}
+
+.ribbon:before, .ribbon:after {
+    border: 1.5em solid #198754;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+
+    border-color: #198754 transparent transparent transparent;
+}
+
+.inv_table{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.table{
+    width: 90%;
+}
+
+.bxs-trash{
+    font-size: 23px;
+    color: red;
+}
+
+.table img{
+    width: 25px !important;
+    transform: translateY(-4px) !important;
+    margin-right: 10px;
+}
+
+.modal-body{
+    position: relative;
+    padding: 20px 40px;
+}
+
+.modal-logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.modal-body img{
+    width: 120px;
+}
+
+.headings{
+    width: 100%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.headings h4{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.headings p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.modal-body h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.salutation{
+    margin-top: 40px;
+}
+
+.salutation p{
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+.table-modal{
+    width: 100% !important;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mod-table{
+    width: 100% !important;
+}
+
+.mod-table table{
+    width: 100% !important;
+}
+
+.closing{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: #000;
+}
+
+.req_by{
+    min-width: 250px;
+}
+
+.req_by p{
+    margin-bottom: 20px;
+}
+
+.req_by span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.req_by hr{
+    opacity: 2;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.btn-yes{
+    margin-right: 10px;
+}
+
+.alert{
+    padding: 15px ;
+    width: 80%;
+}
+
+.alert_label{
+    width: 100% ;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.alert-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}

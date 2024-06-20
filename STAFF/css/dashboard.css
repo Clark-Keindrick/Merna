@@ -1,0 +1,371 @@
+.panels{
+    margin: 35px 5px 100px 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
+}
+
+.panels a{
+    text-decoration: none;
+    color: #5f6468;
+}
+
+.panels-container{
+    height: 80px;
+    border-radius: 4px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(130, 130, 130, 0.1);
+    flex-shrink: 0;
+}
+
+.panels-icon, 
+.panels-icon2, 
+.panels-icon3,
+.panels-icon4{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #30a5ff;
+    flex: 1;
+    flex-shrink: 0;
+}
+
+.panels-icon2{
+    background-color: #ffb53e;
+}
+
+.panels-icon3{
+    background-color: #1ebfae;
+}
+
+.panels-icon4{
+    background-color: #f9243f;
+}
+
+.panels-icon i,
+.panels-icon2 i,
+.panels-icon3 i,
+.panels-icon4 i{
+    font-size: 70px;
+}
+
+.panels-stats{
+    background: white;
+    height: 100%;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.panels-stats-box p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.panels-stats-box{
+    margin-left: 17px;
+}
+
+.stats-num{
+    font-size: 25px;
+}
+
+.stats-label{
+    font-size: 15px;
+    transform: translateY(-5px);
+    opacity: 0.7;
+}
+
+.invc-table{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invc-table .table{
+    width: 70%;
+}
+
+
+@media(min-width:450px) and (max-width:960px){
+    .POS{
+        transform: translateX(-10%);
+        width: 100% !important;
+    }
+
+    .panels{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+
+    .panels-container{
+        height: 65px;
+    }
+
+    .panels-icon i,
+    .panels-icon2 i,
+    .panels-icon3 i,
+    .panels-icon4 i{
+        font-size: 30px;
+    }
+
+    .stats-num{
+        font-size: 15px;
+    }
+    
+    .stats-label{
+        font-size: 12px;
+        transform: translateY(1px);
+    }
+
+    .invc-table .table{
+        width: 100% !important;
+    }
+
+    .pos-payment h2{
+        font-size: 17px;
+    }
+}
+
+@media(min-width:961px) and (max-width:1400px){
+    .POS{
+        transform: translateX(-8%);
+        width: 100% !important;
+    }
+
+    .panels{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+
+    .panels-icon i,
+    .panels-icon2 i,
+    .panels-icon3 i,
+    .panels-icon4 i{
+        font-size: 50px;
+    }
+
+    .stats-num{
+        font-size: 25px;
+    }
+    
+    .stats-label{
+        font-size: 15px;
+        transform: translateY(1px);
+    }
+
+    .invc-table .table{
+        width: 100% !important;
+    }
+
+    .pos-payment h2{
+        font-size: 22px;
+    }
+    
+}
+
+.POS{
+    width: 90%;
+    margin-top: 65px;
+    margin-left: 70px;
+    padding: 30px;
+    box-shadow: 0 0 5px rgba(150, 150, 150, 0.6);
+    border-radius: 8px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+.add-form{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(180, 180, 180, 0.6);
+}
+
+.add-form form{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.add-form-2{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(180, 180, 180, 0.6);
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pos-input label{
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.pos-input input{
+    border: 1px solid #eee;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 20px 12px;
+    font-size: 17px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+}
+
+.pos-input input::placeholder{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.amounts{
+    display: flex;
+    align-items: center;
+}
+
+.amounts p{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.toast-container{
+    display: block;
+}
+
+.ribbon {
+    background: gray;
+}
+
+.ribbon:before, .ribbon:after {
+    border: 1.5em solid gray;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+
+    border-color: gray transparent transparent transparent;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.btn{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.alert-box{
+    margin-top: 50px;
+}
+
+.total-price{
+    width: 50%;
+    margin-top: 65px;
+    transform: translateX(49%);
+    padding: 30px;
+    box-shadow: 0 0 5px rgba(150, 150, 150, 0.6);
+    border-radius: 8px;
+    background: white;
+    overflow: hidden;
+}
+
+.pos-payment{
+    padding-left: 16%;
+    margin: 35px 0;
+}
+
+.pos-pay-input{
+    padding-left: 16%;
+}
+
+.pos-pay-input label{
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color: green;
+}
+
+.pos-pay-input input{
+    border: 2px solid #eee;
+    box-shadow: none;
+    display: block;
+    width: 70%;
+    height: 34px;
+    padding: 20px 12px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+}
+
+.pos-pay-input input:focus{
+    border: 3px solid #2ecc71;
+    box-shadow: none;
+}
+
+.pos-change{
+    padding-left: 16%;
+    margin: 30px 0;
+}
+
+.btn-payments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-payments button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+
+.btn-payments i{
+    font-size: 25px;
+    transform: translateY(3px);
+    margin-right: 5px;
+}
+
+.add-form3{
+    padding: 20px 20px 1px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(180, 180, 180, 0.6);
+    overflow: hidden;
+}
+
+.add-form3 form{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    overflow: hidden;
+}
+
+.alert2{
+    width: 50%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.alert-box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}

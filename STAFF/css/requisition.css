@@ -1,0 +1,221 @@
+.form-container{
+    width: 95%;
+    margin-top: 65px;
+    margin-left: 30px;
+    padding: 30px;
+    box-shadow: 0 0 5px rgba(150, 150, 150, 0.6);
+    border-radius: 8px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+.add-form{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(180, 180, 180, 0.6);
+    height: 245px;
+}
+
+.add-form-2{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(180, 180, 180, 0.6);
+}
+
+.form-floating label{
+    font-weight: 600;
+}
+
+.datepick::placeholder{
+    font-weight: 600;
+}
+
+.add-form form{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.begin-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.begin-row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.qty-box{
+    width: 47%;
+}
+
+.float-1{
+    flex: 1;
+}
+
+.float-2{
+    flex: 1;
+}
+
+.table-sec{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rq-table{
+    width: 70%;
+}
+
+.date{
+    height: 58px;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.btn{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.bxs-send{
+    margin-right: 7px;
+    transform: translateY(2px);
+}
+
+.modal-body{
+    position: relative;
+    padding: 20px 50px;
+}
+
+.modal-logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.modal-body img{
+    width: 120px;
+}
+
+.headings{
+    width: 100%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.headings h4{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.headings p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.modal-body h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.salutation{
+    margin-top: 40px;
+}
+
+.salutation p{
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+.table-modal{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mod-table{
+    width: 100%;
+}
+
+.closing{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: #000;
+}
+
+.req_by{
+    min-width: 250px;
+}
+
+.req_by p{
+    margin-bottom: 20px;
+}
+
+.req_by span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.req_by hr{
+    opacity: 2;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.alert-box{
+    margin-top: 50px;
+}
+
+.ribbon {
+    background: #36a7ff;
+}
+
+.ribbon:before, .ribbon:after {
+    border: 1.5em solid #36a7ff;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+
+    border-color: #36a7ff transparent transparent transparent;
+}
+
+
+@media(min-width:961px) and (max-width:1400px){
+    .datepick::placeholder{
+        font-weight: 600;
+        white-space: normal;
+        transform: translateY(-10px);
+    }
+
+    .btn-container button{
+        width: 200px;
+    }
+}
+
+@media(min-width:1400px) and (max-width:1700px){
+    .datepick::placeholder{
+        font-weight: 600;
+    }
+
+    .btn-container button{
+        width: 250px;
+    }
+}

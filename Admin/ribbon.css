@@ -1,0 +1,95 @@
+.ribbon {
+    font-size: 23px !important;
+    width: 40% !important;
+    position: relative !important;
+    color: #fff !important;
+    text-align: center !important;
+    padding: 0.7em 0.8em !important; 
+    margin: 2em auto 1em !important;
+    font-family: 'Roboto', Arial !important;
+}
+
+.ribbon:before, .ribbon:after {
+    content: "" !important;
+    position: absolute !important;
+    display: block !important;
+    bottom: -1em !important;
+    z-index: -1 !important;
+}
+
+.ribbon:before {
+    left: -2em !important;
+    border-right-width: 1.5em !important;
+    border-left-color: transparent !important;
+}
+
+.ribbon:after {
+    right: -2em !important;
+    border-left-width: 1.5em !important;
+    border-right-color: transparent !important;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content: "" !important;
+    position: absolute !important;
+    display: block !important;
+    border-style: solid !important;
+    bottom: -1em !important;
+}
+
+.ribbon2 {
+    font-size: 23px !important;
+    width: 40% !important;
+    position: relative !important;
+    color: #fff !important;
+    text-align: center !important;
+    padding: 0.7em 0.8em !important; 
+    margin: 2em auto 1em !important;
+    font-family: 'Roboto', Arial !important;
+}
+
+.ribbon2:before, .ribbon2:after {
+    content: "" !important;
+    position: absolute !important;
+    display: block !important;
+    bottom: -1em !important;
+    z-index: -1 !important;
+}
+
+.ribbon2:before {
+    left: -2em !important;
+    border-right-width: 1.5em !important;
+    border-left-color: transparent !important;
+}
+
+.ribbon2:after {
+    right: -2em !important;
+    border-left-width: 1.5em !important;
+    border-right-color: transparent !important;
+}
+
+.ribbon2 .ribbon-content2:before, .ribbon2 .ribbon-content2:after {
+    content: "" !important;
+    position: absolute !important;
+    display: block !important;
+    border-style: solid !important;
+    bottom: -1em !important;
+}
+
+.ribbon2 .ribbon-content2:before {
+    left: 0 !important;
+    border-width: 1em 0 0 1em !important;
+}
+.ribbon2 .ribbon-content2:after {
+    right: 0 !important;
+    border-width: 1em 1em 0 0 !important;
+}
+
+.ribbon2 .ribbon-content2:before {
+    left: 0 !important;
+    border-width: 1em 0 0 1em !important;
+}
+.ribbon2 .ribbon-content2:after {
+    right: 0 !important;
+    border-width: 1em 1em 0 0 !important;
+}

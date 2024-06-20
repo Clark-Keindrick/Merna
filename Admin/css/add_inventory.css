@@ -1,0 +1,92 @@
+.ribbon {
+    background: gray;
+}
+
+.ribbon:before, .ribbon:after {
+    border: 1.5em solid gray;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+
+    border-color: gray transparent transparent transparent ;
+}
+
+main{
+    min-height: 100vh!important;
+    transition: all .5s ease!important;
+    z-index: 2!important;
+    margin: 50px 15px 0 70px !important;
+}
+
+.POS{
+    width: 50% !important;
+    margin-top: 80px !important;
+    transform: translateX(50%) !important;
+}
+
+.pos-input label{
+    margin-bottom: 5px !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+}
+
+.pos-input .item-input{
+    border: 1px solid #eee !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    height: 34px !important;
+    padding: 20px 12px !important; 
+    font-size: 17px !important;
+    line-height: 1.42857143 !important;
+    color: #555 !important;
+    background-color: #fff !important;
+}
+
+.pos-input select{
+    padding: 10px 12px !important; 
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #555 !important;
+}
+
+.pos-input .item-input::placeholder{
+    font-size: 17px !important;
+    font-weight: 500!important;
+}
+
+.row{
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    margin-bottom: 30px !important;
+    row-gap: 20px;
+}
+
+.d-grid button{
+    margin-top: 20px !important;
+    padding: 6px !important;
+    font-weight: 600 !important;
+    font-size: 23px !important;
+}
+
+.itemPic{
+    padding: 10px !important;
+}
+
+.alert{
+    padding: 15px !important;
+    width: 50% !important;
+}
+
+.alert_label{
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 25px !important;
+    font-weight: bold;
+}
+
+.alert-box{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

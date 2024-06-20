@@ -1,0 +1,185 @@
+.btn-container button{
+    font-weight: 700;
+}
+
+.inv_table{
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table{
+    width: 90%;
+}
+
+.bx{
+    font-size: 23px;
+}
+
+.bx-money{
+    color: green;
+    margin-right: 8px;
+}
+
+.bxs-trash{
+    color: red;
+}
+
+.bxs-add-to-queue{
+    margin-right: 10px;
+    transform: translateY(3px);
+}
+
+.modal-title{
+    color: white;
+    font-weight: 600;
+}
+
+.modal-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-body img{
+    width: 120px;
+}
+
+.headings{
+    text-align: center;
+    color: #000;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.headings h2{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.headings p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.details{
+    color: #000;
+}
+
+.details h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.details p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.details span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.receipt{
+    margin-top: 5px;
+}
+
+.data{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.headers{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.modal-footer button{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.payments{
+    display: block;
+    width: 70%;
+}
+
+.inv-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inv-row p, .inv-row span{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ribbon {
+    background: black;
+}
+
+.ribbon:before, .ribbon:after {
+    border: 1.5em solid black;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+
+    border-color: black transparent transparent transparent;
+}
+
+.modal-header2{
+    padding: 10px;
+}
+
+.modal-title2{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.modal-body2{
+    padding: 17px;
+}
+
+.modal-footer2{
+    padding: 7px;
+}
+
+.modal-footer2 button{
+    padding: 5px 15px;
+    font-size: 17px ;
+    font-weight: 600;
+}
+
+.btn-yes{
+    margin-right: 10px;
+}
+
+.alert-box{
+    width: 50%;
+}
+
+.alert-box .alert{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}

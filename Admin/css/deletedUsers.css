@@ -1,0 +1,93 @@
+.home-section{
+    transition: all .5s ease!important;
+    margin: 50px !important;
+    margin-left: 10% !important;
+    z-index: 2!important;
+}
+
+.card-image{
+    width: 100% !important;
+    margin-top: 130px !important;
+    margin-left: 50px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr!important;
+    row-gap: 60px;
+}
+
+.img-container{
+    max-width: 350px !important;
+}
+
+.card-body{
+    padding: 20px 15px!important;
+}
+
+.card-title{
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+.card-footer{
+    padding: 10px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.card-footer a{
+    color: green;
+    text-decoration: none;
+}
+
+.card-footer a:hover{
+    color: #2ecc71;
+    text-decoration: underline;
+}
+
+
+.card-text{
+    font-size: 14px !important;
+}
+
+.description{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.card-container, .card-container1{
+    flex: 1 !important;
+}
+
+.card-container .card-text{
+    padding-left: 10px !important;
+}
+
+.ribbon {
+    background: #3498db;
+}
+
+.ribbon:before, .ribbon:after {
+    border: 1.5em solid #3498db;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+
+    border-color: #3498db transparent transparent transparent ;
+}
+
+.user_alert{
+    padding: 12px !important;
+    width: 100% !important;
+    margin-top: 100px !important;
+    transform: translateX(95%) !important;
+
+}
+
+.alert_label{
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 25px !important;
+    font-weight: bold;
+}
+

@@ -1,0 +1,60 @@
+.ribbon {
+    background: #ba89b6;
+}
+
+.ribbon:before, .ribbon:after {
+    border: 1.5em solid #986794;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+
+    border-color: #804f7c transparent transparent transparent;
+}
+
+.inv_table{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.table{
+    width: 90%;
+}
+
+.bx{
+    font-size: 23px;
+}
+
+.bxs-trash{
+    color: red;
+}
+
+.modal-header{
+    padding: 10px;
+}
+
+.modal-title{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.modal-body{
+    padding: 17px;
+}
+
+.modal-footer{
+    padding: 7px;
+}
+
+.modal-footer button{
+    padding: 5px 15px;
+    font-size: 17px ;
+    font-weight: 600;
+}
+
+.btn-yes{
+    margin-right: 10px;
+}

@@ -1,0 +1,136 @@
+.sup_list{
+    margin: 10px 15px 30% 70px !important;
+    padding: 10px 0 !important;
+}
+
+
+.ribbon {
+    background: #e74c3c;
+}
+
+.ribbon:before, .ribbon:after {
+    border: 1.5em solid #e74c3c;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+
+    border-color: #e74c3c transparent transparent transparent ;
+}
+
+.ribbon2 {
+    background: #f1c40f;
+}
+
+.ribbon2:before, .ribbon2:after {
+    border: 1.5em solid #f1c40f;
+}
+
+.ribbon2 .ribbon-content2:before, .ribbon2 .ribbon-content2:after {
+
+    border-color: #f1c40f transparent transparent transparent ;
+}
+
+.sup_table{
+    height: 100px !important;
+    width: 70% !important;
+    margin-top: 110px !important;
+    transform: translateX(21%) !important;
+}
+
+.table{
+    width: 100%!important;
+    height: 120px !important;
+}
+
+.table td, .table th{
+    padding: 7px !important;
+}
+
+.sup_table th{
+    background-color: #d35400!important;
+    color: white !important;
+}
+
+.bxs-edit{
+    margin-right: 8px!important;
+}
+
+.bxs-user-plus{
+    font-size: 33px !important;
+    vertical-align: middle !important;
+    margin-bottom: 4px !important;
+}
+ 
+.SUPPLIER{
+    width: 50% !important;
+    margin-top: 80px !important;
+    transform: translateX(50%) !important;
+}
+
+.sup-input label{
+    margin-bottom: 5px !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+}
+
+.sup-input input{
+    border: 1px solid #eee !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    height: 34px !important;
+    padding: 20px 12px !important; 
+    font-size: 17px !important;
+    line-height: 1.42857143 !important;
+    color: #555 !important;
+    background-color: #fff !important;
+}
+
+
+.sup-input input::placeholder{
+    font-size: 17px !important;
+    font-weight: 500!important;
+}
+
+.row{
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    margin-bottom: 30px !important;
+    row-gap: 20px;
+}
+
+.supBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-grid button{
+    margin-top: 20px !important;
+    padding: 6px !important;
+    font-weight: 600 !important;
+    font-size: 23px !important;
+}
+
+.alert{
+    padding: 15px !important;
+    width: 100% !important;
+}
+
+.alert2{
+    padding: 15px !important;
+    width: 50% !important;
+}
+
+.alert_label{
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 25px !important;
+    font-weight: bold;
+}
+
+.alert-box{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

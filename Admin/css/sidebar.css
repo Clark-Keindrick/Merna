@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+  --color-default:#229954;
+  --color-second:#229954;
+  --color-white:#fff;
+  --color-body:#e4e9f7;
+  --color-light:#e0e0e0;
+}
+
+*{
+    box-sizing: border-box !important;
+    font-family: 'Open Sans', sans-serif!important;
+}
+
+body{
+    padding: 50px 0 0 5px!important;
+    margin: 0!important;
+    background: #f1f4f7!important;
+	color: #5f6468!important;
+    line-height: 1.4!important;
+    margin-bottom: 500px!important;
+}
+
+.text {
+    color: white!important;
+    font-size: 20px!important;
+    margin-top: 5px!important;
+    margin-left: 30px!important;
+    font-weight: bold!important;
+}
+
+.sidebar .logo .logo_details img{
+    height: 50px!important;
+    width: 50px!important;
+    object-fit: cover!important;
+    border-radius: 50%!important;
+    margin-left: 5px!important;
+    margin-right: 20px!important;
+    opacity: 0!important;
+    transition: all .5s ease!important;
+}
+
+
+.sidebar.open .logo_details .icon,
+.sidebar.open .logo .logo_details img,
+.sidebar.open .logo_details .logo_name{
+    opacity: 1!important;
+}
+
+.sidebar.open #btn{
+    text-align: right!important;
+}
+
+.sidebar .profile {
+    margin-bottom: 30px!important;
+}
+
+.sidebar.open .profile {
+    align-items: center!important;
+    width: 250px!important;
+    position: absolute!important;
+    bottom: 10px!important;
+    left: 6px!important;
+    padding: 10px 5px!important;
+    margin-bottom: 10px!important;
+}
+
+.sidebar .profile img {
+    object-fit: cover!important;
+    object-position: center!important;
+    border-radius: 50%!important;
+    width: 50px!important;
+    height: 50px!important;
+    transform: translateY(-15px)!important;
+}
+
+.sidebar .profile .profile_content {
+    display: flex!important;
+    align-items: center!important;
+    color: #fff!important;
+    text-align: center!important;
+    padding: 10px 0!important;
+}
+
+.sidebar .profile .profile-details {
+    display: block!important;
+    transform: translateY(-12px)!important;
+}
+
+.sidebar .profile .profile_content .name,
+.sidebar .profile .profile_content .designation {
+    font-size: 15px!important;
+    font-weight: 500!important;
+}
+
+.sidebar .profile .profile_content .name,
+.sidebar .profile .profile_content .designation {
+    opacity: 0!important;
+}
+
+.sidebar.open .profile .profile_content .name,
+.sidebar.open .profile .profile_content .designation {
+    opacity: 1!important;
+}
+
+.sidebar.open .profile img{
+    opacity: 1!important;
+    margin-right: 11px!important;
+}

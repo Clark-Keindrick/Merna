@@ -1,0 +1,105 @@
+.modal{
+    transform: translateX(35%) !important;
+}
+
+.modal-header{
+    padding: 10px !important;
+}
+
+.modal-title{
+    color: white !important;
+    font-weight: 700 !important;
+    font-size: 25px !important;
+}
+
+.modal-title img{
+    width: 35px !important;
+    margin-left: 6px !important;
+    transform: translateY(-5px) !important;
+}
+
+
+.modal-body{
+    padding: 17px !important;
+}
+
+.modal-footer{
+    padding: 7px !important;
+}
+
+.modal-footer button{
+    padding: 5px 15px!important;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+}
+
+.btn-yes{
+    margin-right: 10px !important;
+}
+  
+main{
+    min-height: 100vh!important;
+    transition: all .5s ease!important;
+    z-index: 2!important;
+    margin: 50px 15px 0 70px !important;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.inv_header{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: space-between!important;
+    width: 100%!important;
+    padding: 4px 20px 8px 20px!important;
+    transform: translateX(8px)!important;
+}
+
+.inv_label{
+    padding-top: 10px!important;
+    flex-shrink: 0!important;
+    margin-right: 50px!important;
+}
+
+.tot_item_label{
+    padding-top: 10px!important;
+    flex-shrink: 0!important;
+    margin-left: 50px!important;
+}
+
+.searchbox{
+    max-width: 550px!important;
+    flex: 2!important;
+    flex-shrink: 0!important;
+}
+
+.searchbox input{
+    padding: 5px!important;
+}
+
+.searchbox .btn{
+    padding: 0 10px !important;
+}
+
+.inv_table{
+    height: 120px !important;
+    width: 80% !important;
+    margin-top: 80px !important;
+    transform: translateX(13%) !important;
+}
+
+.table{
+    width: 100%!important;
+    height: 120px !important;
+}
+
+.table td, .table th{
+    padding: 7px !important;
+}
+
+.bxs-trash{
+    color: red;
+}
